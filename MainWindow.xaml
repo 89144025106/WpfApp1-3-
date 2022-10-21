@@ -9,6 +9,7 @@
     <Grid>
         <Button Content="Win1" Click="Button_Click" Canvas.Left="67" Canvas.Top="10" RenderTransformOrigin="2.591, 0" Margin="682,0,0,381"/>
         <Button Content="Win2" Click="Button_Click" Canvas.Left="67" Canvas.Top="10" RenderTransformOrigin="2.591, 0" Margin="682,38,0,343"/>
+        <Button Content="Win3" Click="Button_Click" Canvas.Left="67" Canvas.Top="10" RenderTransformOrigin="2.591, 0" Margin="682,76,0,305"/>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
             <Button Background="DarkBlue" Foreground="White" FontFamily="Verdana" Padding="5"
                     Margin="5">Открыть</Button>
