@@ -33,6 +33,10 @@ namespace WpfApp1_Уп_Пр_3
             window2.Show();
             Window3 window3 = new Window3();
             window3.Show();
+            Window4 window4 = new Window4();
+            window4.Show();
+
+
 
 
 
