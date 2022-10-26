@@ -7,36 +7,32 @@
         mc:Ignorable="d"
         Title="Window4" Height="450" Width="800">
     <Grid x:Name="Grid1">
-            <Grid.ColumnDefinitions>
+        <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Menu Background="White" BorderBrush="Navy" BorderThickness="1" RenderTransformOrigin="0.16,0.333" Grid.ColumnSpan="2">
-            <MenuItem Header="_Файл" ToolTip="Главнная вкладка" Click="MenuItem_Click">
-                <MenuItem Header="_Фон" Click="mnuNew1_Click" ToolTip="Изменение цвета фона MainWindow" />
-                <MenuItem Header="_Информация" Click="mnuNew_Click" ToolTip="Вывод личной информации о разработчике"/>
-                <MenuItem Header="_Сохранить" ToolTip="Сохранение всей информации"/>
+        <Menu Background="#FFA4C9DE" BorderBrush="Navy" BorderThickness="1" RenderTransformOrigin="0.16,0.333" Grid.ColumnSpan="2">
+            <MenuItem Header="_Файл" ToolTip="Главнная вкладка" Click="MenuItem_Click" Background="#FF976DDE" FontWeight="Bold" FontStyle="Italic" Height="25" Width="56" Foreground="White" BorderBrush="#FF5A45DE">
+                <MenuItem Header="_Фон" Click="mnuNew1_Click" ToolTip="Изменение цвета фона MainWindow" Background="#FF546EE4" />
+                <MenuItem Header="_Информация" Click="mnuNew_Click" ToolTip="Вывод личной информации о разработчике" Background="#FF5263AC"/>
+                <MenuItem Header="_Сохранить" ToolTip="Сохранение всей информации" Background="#FF8F9CD3"/>
                 <Separator/>
-                <MenuItem Header="_Закрыть" Click="MenuItem_Click" ToolTip="Закрытие окна" />
-                <MenuItem Header="_О программе" ToolTip="Инфорация о программе"/>
-
+                <MenuItem Header="_Закрыть" Click="MenuItem_Click" ToolTip="Закрытие окна" Background="#FF5F6DAC" />
+                <MenuItem Header="_О программе" ToolTip="Инфорация о программе" Background="#FF4F6CEE"/>
             </MenuItem>
-            <Button Background="White" Content="Информация" ToolTip= "Вывод информации о разработчике" />
+            <Button Background="#FF958EDA" Content="Информация" ToolTip= "Вывод информации о разработчике" BorderBrush="#FF6B50E6" Height="24" FontWeight="Bold" FontStyle="Italic" Width="90" Foreground="#FFFDF9F9" Click="Button_Click" />
             <ToolBarTray Background="White" Height="30" VerticalAlignment="Top">
-                <ToolBar Name="MyToolbar" Width="200" Height="30" >
-                    <Button Background="White" Content="Файл" ToolTip="Вкладка"  />
-                    <Button Background="White" Content="Закрыть" ToolTip="Закрытие окна" />
-                    <Button Background="White" Content="Фон" ToolTip="Изменение фона" />
+                <ToolBar Name="MyToolbar" Width="310" Background="White" Margin="0,0,0,-31" >
+                    <Button Background="#FF8975E4" Content="Файл" ToolTip="Вкладка" FontWeight="Bold" FontStyle="Italic" Margin="0,1,0,-3" Width="56" Foreground="#FFFDF6F6" BorderBrush="#FF583DD3" Height="28"  />
+                    <Button Background="#FF845ACF" Content="Закрыть" ToolTip="Закрытие окна" Margin="0,0,0,-3" BorderBrush="#FF5549D1" Foreground="#FFFDFDFD" FontWeight="Bold" FontStyle="Italic" Width="101" VerticalAlignment="Bottom" Height="28" />
+                    <Button Background="#FF8A8ED8" Content="Фон" ToolTip="Изменение фона" Margin="0,0,0,-3" VerticalAlignment="Stretch" FontWeight="Bold" FontStyle="Italic" Width="121" Foreground="#FFF7F2F2" BorderBrush="#FF5F52DE" />
                 </ToolBar>
             </ToolBarTray>
-
-            <Button Background="White"  Content="Сохранить" ToolTip="Сохранение информации" />
-
-            <Button Background="White" Content="О программе" ToolTip="Информация о программе"/>
+            <Button Background="#FF886EE2"  Content="Сохранить" ToolTip="Сохранение информации" Height="33" FontWeight="Bold" FontStyle="Italic" Width="119" BorderBrush="#FF724ADA" Foreground="White" />
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-
             </StackPanel>
-
+            <Button Background="#FF956FE8" Content="О программе" ToolTip="Информация о программе" Height="32" Width="135" FontWeight="Bold" FontStyle="Italic" BorderBrush="#FF6E47D8" Foreground="#FFF9F2F2"/>
+            
         </Menu>
 
     </Grid>

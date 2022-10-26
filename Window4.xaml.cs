@@ -38,5 +38,9 @@ namespace WpfApp1_Уп_Пр_3
 
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
