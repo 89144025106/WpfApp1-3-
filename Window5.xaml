@@ -12,12 +12,14 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="0" Grid.Row="0" >
-         
+        <StackPanel Grid.Column="0" Grid.Row="0" Background="NavajoWhite" >
+            <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap" Margin="10,10,0,10" VerticalAlignment="Top" Width="106" TextChanged="TextBox1_TextChanged"/>
+            <TextBox x:Name="TextBox4" Height="46" TextWrapping="Wrap" Margin="10,8,256,0" />
         </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="0" >
-            
+        <StackPanel Grid.Row="0" Background="NavajoWhite" Grid.Column="1" >
+            <TextBox x:Name="TextBox2" Background="Coral" Height="79" TextWrapping="Wrap" Margin="10,8,209,0" TextChanged="TextBox2_TextChanged"/>
+            <TextBox x:Name="TextBox3" Height="41" TextWrapping="Wrap" Margin="10,8,272,0"/>
         </StackPanel>
 
     </Grid>

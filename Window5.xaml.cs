@@ -22,6 +22,21 @@ namespace WpfApp1_Уп_Пр_3
         public Window5()
         {
             InitializeComponent();
+                  
+        }
+
+        private void TextBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox1.Text = TextBox2.Text;
+            TextBox3.Text = TextBox2.Text;
+            TextBox4.Text = TextBox2.Text;
         }
     }
-}
+    }
+
+        
+        
+
+        
+    
+
